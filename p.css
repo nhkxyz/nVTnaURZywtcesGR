@@ -1,0 +1,43 @@
+body,h1,h2,h3,h4,h5,h6,p,a{
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+	font-family: 'Roboto Mono', monospace;
+	text-align: center;
+	background-color: #100020;
+	color: #FFFFFF;
+	text-shadow: 2px 2px #000000;
+}
+
+#main{
+	margin: 200px auto 0 auto;
+	padding: 50px 100px 50px 100px;
+	display: inline-block;
+	vertical-align: center;
+	background-color: #302838;
+	border: 2px groove #404040;
+	
+}
+
+#main p{
+	margin: 10px;
+}
+
+#download{
+	display: inline-block;
+	margin: 5px 0 0 0;
+	padding: 6px 15px 8px 15px;
+	color: #FFFFFF;
+	text-decoration: none;
+	border-radius: 2px;
+	transition: 200ms;
+}
+
+#download:hover{
+	color: #F8A848;
+	background-color: #403848;
+	box-shadow: 5px 5px;
+}
